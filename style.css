@@ -8,7 +8,7 @@
     --botao-fundos:rgba(58,55,94,0.3);
 
  }
-.body{
+body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: 'Chakra Petch',san-serif;
