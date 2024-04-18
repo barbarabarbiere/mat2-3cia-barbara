@@ -75,7 +75,7 @@ border: bottom 4px solid var(--verde);
 .botao:first-child{
     border: radius :40px;px 0 0 0;
 }
-.botao : :last-child{
+.botao:last-child{
     boder- radius: 0 40px 0 0 ;
   }
 }
