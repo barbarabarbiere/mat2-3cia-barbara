@@ -1,51 +1,51 @@
 @import url('http://fonts.googleapis.com/css2?family=chakra+petch:wght@400;700&display=swap');
- :root{
-    --cor-de-fundo:#1E1E1E;
-    --VERDE:#6FFF57;
-    --branco:#FFFFFF;
-    --botao-ativo:#3A375E;
-    --botao-inativo:rgba(58,55,94,0.5);
-    --botao-fundos:rgba(58,55,94,0.3);
 
- }
+:root {
+    --cor-de-fundo: #1E1E1E;
+    --VERDE: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --botao-fundos: rgba(58, 55, 94, 0.3);
 
-body{
+}
+
+body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: 'Chakra Petch',san-serif;
+    font-family: 'Chakra Petch', san-serif;
 }
 
 
-.conteudo-principal{
+.conteudo-principal {
     display: flex;
     flex-direction: column;
-justify-content: center
-align-items:center;
-max: width 1200px;
-width: 100%;
-margin: 0 auto;
+    justify-content: center align-items:center;
+    max: width 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.tiulo-principal{
-text-align:left ; 
-width: 100%;   
-font-size: 32px;
+.tiulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
 }
 
-.tiulo-principal span{
-    calor :var(--verde);
+.tiulo-principal span {
+    color: var(--verde);
 }
 
-.botao{
+.botao {
     font-family: "Crakra-Petch", sans-serif;
     background-color: var(--botao-inativo);
-    color:var(--branco);
-    display:flex;
+    color: var(--branco);
+    display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
-    width : 100% ;
+    width: 100%;
     border-bottom: 4px solid var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
@@ -58,12 +58,12 @@ font-size: 32px;
 }
 
 .botoes {
-   display: block; 
+    display: block;
 }
 
-.ativo{
-----background-color:var(--botao-ativo);
-border: bottom 4px solid var(--verde);
+.ativo {
+    ----background-color: var(--botao-ativo);
+    border: bottom 4px solid var(--verde);
 }
 
 
@@ -72,10 +72,13 @@ border: bottom 4px solid var(--verde);
     .botoes {
         display: flex;
     }
-.botao:first-child{
-    border: radius :40px;px 0 0 0;
-}
-.botao:last-child{
-    boder- radius: 0 40px 0 0 ;
-  }
+
+    .botao:first-child {
+        border: radius:40px;
+        px 0 0 0;
+    }
+
+    .botao:last-child {
+        boder- radius: 0 40px 0 0;
+    }
 }
