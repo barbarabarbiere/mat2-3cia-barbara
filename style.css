@@ -20,8 +20,9 @@ body {
 .conteudo-principal {
     display: flex;
     flex-direction: column;
-    justify-content: center align-items:center;
-    max: width 1200px;
+    justify-content: center;
+    align-items:center;
+    max: width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
@@ -78,8 +79,8 @@ body {
     }
 
     .botao:first-child {
-        border: radius:40px;
-        px 0 0 0;
+        border: radius:40px 0 0 0;
+        
     }
 
     .botao:last-child {
